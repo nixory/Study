@@ -63,11 +63,28 @@ using namespace std;
 //	}
 //
 //}
+//
+//int main() {
+//	int sum = 0;
+//	for (int i = 1; i <= 10; i++) {
+//		sum += i;
+//		cout << sum;
+//	}
+//}
 
 int main() {
-	int sum = 0;
-	for (int i = 1; i <= 10; i++) {
-		sum += i;
-		cout << sum;
+	int A;
+	cout << "number: " << endl;
+	cin >> A;
+
+	int divisor = 2;
+	while (A % divisor != 0) {
+		divisor++;
+	}
+	if (divisor == A) {
+		cout << "A is prime" << endl;
+	}
+	else {
+		cout << "A is not prime" << endl;
 	}
 }
