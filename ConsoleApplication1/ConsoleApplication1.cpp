@@ -1,5 +1,6 @@
-﻿#include <iostream>;
+﻿/*#include <iostream>;
 using namespace std;
+
 
 int main() {
 	int a, b, res;
@@ -19,4 +20,29 @@ int main() {
 	
 
 	return 0;
-};
+};*/
+
+#include <iostream>;
+using namespace std;
+
+
+
+int main() {
+	int a;
+	cout << "Enter integer value: ";
+	cin >> a;
+	if (a > 0) {
+		cout << "a is positiv" << endl;
+	}
+	else {
+		if (a == 0) {
+			cout << "a is 0" << endl;
+		}
+		else {
+			cout << "a is negative" << endl;
+		}
+	}
+
+
+	return 0;
+}
