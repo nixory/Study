@@ -47,19 +47,27 @@ using namespace std;
 	return 0;
 } */
 
-int main() {
-	int x, a, b;
-	cout << "Enter a: ";
-	cin >> a;
-	cout << "Enter b: ";
-	cin >> b;
-	cout << "Enter integer value x: ";
-	cin >> x;
-	if ((x > a) && (x < b)) {
-		cout << "x is in (a;b)" << endl;
-	}
-	else {
-		cout << "x is not in (a;b)" << endl;
-	}
+//int main() {
+//	int x, a, b;
+//	cout << "enter a: ";
+//	cin >> a;
+//	cout << "enter b: ";
+//	cin >> b;
+//	cout << "enter integer value x: ";
+//	cin >> x;
+//	if ((x > a) && (x < b)) {
+//		cout << "x is in (a;b)" << endl;
+//	}
+//	else {
+//		cout << "x is not in (a;b)" << endl;
+//	}
+//
+//}
 
+int main() {
+	int sum = 0;
+	for (int i = 1; i <= 10; i++) {
+		sum += i;
+		cout << sum;
+	}
 }
