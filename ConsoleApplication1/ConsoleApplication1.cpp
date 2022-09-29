@@ -17,7 +17,7 @@ int main() {
 	}
 	if (f) cout << "Result is: " << res;
 
-	
+
 
 	return 0;
 };*/
@@ -27,7 +27,7 @@ using namespace std;
 
 
 
-int main() {
+/*int main() {
 	int a;
 	cout << "Enter integer value: ";
 	cin >> a;
@@ -45,4 +45,21 @@ int main() {
 
 
 	return 0;
+} */
+
+int main() {
+	int x, a, b;
+	cout << "Enter a: ";
+	cin >> a;
+	cout << "Enter b: ";
+	cin >> b;
+	cout << "Enter integer value x: ";
+	cin >> x;
+	if ((x > a) && (x < b)) {
+		cout << "x is in (a;b)" << endl;
+	}
+	else {
+		cout << "x is not in (a;b)" << endl;
+	}
+
 }
